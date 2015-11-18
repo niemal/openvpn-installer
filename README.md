@@ -1,9 +1,9 @@
 # openvpn-installer
-Automated OpenVPN setup with options.
+Automated OpenVPN server setup and client generation with options targeting debian-based server distributions.
 
 
 ## Installation
-Just run `./install.sh` with options you wish.
+Just run `./install.sh` with options you wish. For certificate details change the variables `C`, `L`, `O`, and `CN` inside `install.sh` and/or `create_client.sh` respectively.
 
 ```
 OpenVPN automatic server and client certificate(s) setup script, v0.01 :: Author: niemal
